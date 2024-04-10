@@ -1,0 +1,120 @@
+/* @import url(../css/global.css); */
+/* @import url(../css/home.css); */
+body {
+    background-color: #f4f5f6;
+}
+.container {
+    width: 100%;
+    max-width: 1230px; /* it depends on you project */
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    /* background: green; */
+}
+.header {
+    z-index: 5;
+}
+.bg {
+}
+#hero {
+    background-color: #fff;
+    padding: 120px 0;
+}
+
+.background-img {
+    z-index: -1;
+    background-image: url(../services/img/servic-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 900px;
+    height: 500px;
+    position: absolute;
+    top: -0rem;
+    right: 0rem;
+    /* left: 10rem; */
+}
+
+.hero-container {
+}
+.container {
+}
+.hero {
+    margin-top: 80px;
+    /* z-index: 2; */
+}
+.hero__link {
+    font-family: "Ubuntu";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: #424551;
+    margin-bottom: 40px;
+}
+.hero span {
+    color: #9a9ca5;
+    padding: 0 6px;
+}
+.hero__title {
+    font-family: "Ubuntu";
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 93.6px;
+    letter-spacing: 1px;
+    color: #1e212c;
+    margin-bottom: 24px;
+}
+.hero__description {
+    font-family: "Ubuntu";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #787a80;
+    width: 600px;
+    margin-bottom: 179px;
+}
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+    padding-bottom: 120px;
+}
+
+.card__img {
+    width: 525px;
+    height: 420px;
+    border-radius: 4px;
+}
+.inther-card {
+    width: 575px;
+}
+.inther-card_title {
+    font-family: "Ubuntu";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 24px;
+}
+.inther-card_info {
+    font-family: "Ubuntu";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    color: #787a80;
+    margin-bottom: 48px;
+}
+.card-btn {
+    background: transparent;
+    color: #ff5a30;
+    border: 1px solid #ff5a30;
+    transition: all 0.5s ease;
+    &:hover {
+        border: 1px solid #ff5a30;
+        background: #ff5a30;
+        color: #fff;
+    }
+}
+.card-btn {
+}

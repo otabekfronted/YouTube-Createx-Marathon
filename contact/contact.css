@@ -1,0 +1,265 @@
+@import url(../css/global.css);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background-img {
+    z-index: -1;
+    background-image: url(./image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 600px;
+    width: 900px;
+    position: absolute;
+    top: -0rem;
+    right: 0rem;
+}
+
+#hero {
+    background-color: #fff;
+    padding: 120px 0;
+}
+
+.hero-container {
+}
+.container {
+}
+.hero {
+    margin-top: 80px;
+    /* z-index: 2; */
+}
+.hero__link {
+    font-family: "Ubuntu";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: #424551;
+    margin-bottom: 40px;
+}
+.hero span {
+    color: #9a9ca5;
+    padding: 0 6px;
+}
+.hero__title {
+    font-family: "Ubuntu";
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 93.6px;
+    letter-spacing: 1px;
+    color: #1e212c;
+    margin-bottom: 24px;
+}
+.hero__description {
+    font-family: "Ubuntu";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #787a80;
+    width: 600px;
+    margin-bottom: 179px;
+}
+
+.contact-container {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.container {
+}
+.contact-container__title {
+    font-family: "Ubuntu";
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 59.8px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.contact-container__info {
+    font-family: "Ubuntu";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+}
+.contact-form {
+    display: flex;
+    gap: 135px;
+}
+.contact-form__img {
+}
+.form {
+    display: flex;
+}
+.input {
+}
+
+.input label {
+    /* display: block; */
+}
+
+.formm {
+    margin-left: 0;
+}
+.input {
+}
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    width: 600px;
+    gap: 80px;
+}
+.wrap {
+}
+.contacts__label {
+}
+.form__input {
+    width: 200px;
+    background-color: #d7dadd;
+    margin-bottom: 24px;
+}
+.contacts__input::placeholder {
+    font-family: "Ubuntu";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+}
+
+.wrap span {
+    font-family: "Ubuntu";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: left;
+    margin-left: 12px;
+}
+
+textarea::placeholder {
+    font-family: "Ubuntu";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: left;
+}
+
+.check {
+    display: flex;
+    align-items: center;
+    font-family: "Ubuntu";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: left;
+    margin-top: 40px;
+}
+.checkboxx span {
+    margin-top: 10px;
+    margin-left: 12px;
+}
+
+.office {
+    background: #f4f5f6;
+    padding-bottom: 95px;
+    padding-top: 80px;
+}
+.container {
+    padding: 0;
+}
+.contacts__title {
+    font-family: "Ubuntu";
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 59.8px;
+    text-align: center;
+}
+.contacts__text {
+    font-family: "Ubuntu";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.offices__locations {
+    display: flex;
+    gap: 11rem;
+    margin-bottom: 12rem;
+}
+.offices__location {
+    width: 250px;
+}
+.offices__location__title {
+    font-size: 2.8rem;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 2.4rem;
+    font-family: "Ubuntu";
+}
+.offices__location__address {
+    margin-bottom: 4px;
+    font-family: "Ubuntu";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: left;
+}
+.offices__location__link {
+    text-decoration: underline;
+    margin-bottom: 2rem;
+    font-family: "Ubuntu";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: left;
+    color: #ff5a30;
+}
+.contact__names {
+    font-family: "Ubuntu";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: left;
+    color: #787a80;
+}
+.contact__links {
+    margin-bottom: 4px;
+    font-family: "Ubuntu";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: left;
+    color: #1e212c;
+}
+.offices__icons {
+    display: flex;
+    gap: 2.4rem;
+    justify-content: center;
+    margin-bottom: 95px;
+
+    margin-top: 40px;
+}
+.icon {
+    font-size: 3.2rem;
+    color: #787a80;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.whatsup {
+    font-size: 3.7rem;
+}
+.whatsup:hover {
+    color: #075e54;
+}
+.mesaanger:hover {
+    color: #00b2ff;
+}
+.facebook:hover {
+    color: #1877f2;
+}
+.twitter:hover {
+    color: #1da1f2;
+}
+.youtube:hover {
+    color: #ff0000;
+}

@@ -1,0 +1,87 @@
+@import url(./normalize.css);
+@import url(./fonts.css);
+@import url(./home.css);
+@import url(./varibles.css);
+@import url(./base.css);
+@import url(./button.css);
+@import url(./input.css);
+@import url(./footer.css);
+/* @import url(../services/services.css); */
+
+/* ubuntu-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/ubuntu-v20-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* ubuntu-700 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/ubuntu-v20-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --text-color: #1e212c;
+    --paragraph-color: #787a80;
+    --btn-color: #ff5a30;
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+    --font-family: "Ubuntu";
+}
+
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+    font-size: 62.5%; /* 10px */
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+img {
+    display: flex;
+    object-fit: cover;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* normalize css problem fixed */
+h1 {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1230px; /* it depends on you project */
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+main {
+    flex-grow: 1;
+}
